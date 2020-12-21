@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="css/fontawesome_all.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <title>Vanilla Javascript</title>
+    </head>
+    <body>
+        <section class="p-3">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 bg-white shadow-sm p-4">
+                        <h3 class="mb-4">Adding New Task</h3>
+                        <!-- Form For Adding Tasks -->
+                        <form action="#" id="task-form" class="mb-5">
+                            <div class="form-group">
+                                <label for="new-task">New Task</label>
+                                <input type="text" class="form-control" id="new-task" />
+                            </div>
+
+                            <button type="submit" id="add-task-btn" class="btn btn-sm btn-success">Add Task</button>
+                        </form>
+
+                        <hr />
+
+                        <!-- Task List -->
+                        <div id="task-list-section">
+                            <h3 id="task-list" class="mb-4">Task List</h3>
+
+                            <div class="form-group">
+                                <label for="filter">Filter</label>
+                                <input type="text" class="form-control" name="filter" id="filter" />
+                            </div>
+
+                            <ul class="list-group"></ul>
+
+                            <a href="#" id="clear-tasks" class="btn btn-sm btn-danger mt-3">
+                                Clear Tasks
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
